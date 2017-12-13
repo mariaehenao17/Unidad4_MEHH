@@ -40,8 +40,6 @@ public class Servlet1 extends HttpServlet {
 			resp+= "<br>";
 		}
 		response.getWriter().print(resp);
-		
-		
 	}
 
 	private void Parametro(String string) {
